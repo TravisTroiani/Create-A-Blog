@@ -1,3 +1,7 @@
+document.getElementById('toggleMode').addEventListener('click', function () {
+    document.body.classList.toggle('dark');
+});
+
 document.getElementById('blogForm').addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -11,5 +15,4 @@ document.getElementById('blogForm').addEventListener('submit', function (event) 
     posts.push(postData);
     localStorage.setItem('posts', JSON.stringify(posts));
 
-    window.location.href = 'index.2.html';
-});
+    window.location.href = `index.2.html`; });
