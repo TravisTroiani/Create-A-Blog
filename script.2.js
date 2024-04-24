@@ -13,13 +13,13 @@ function displayPosts() {
         postDiv.classList.add('post');
 
         const title = document.createElement('h2');
-        title.textContent = post.title;
+        title.textContent = `Title: ${post.title}`;
 
         const author = document.createElement('p');
-        author.textContent = `By: ${post.username}`;
+        author.textContent = `Posted By: ${post.username}`;
 
         const content = document.createElement('p');
-        content.textContent = post.content;
+        content.textContent = `Content: ${post.content}`;
 
         postDiv.appendChild(title);
         postDiv.appendChild(author);
