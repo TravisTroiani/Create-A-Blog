@@ -11,10 +11,12 @@ Clone the repository: git clone SSH Key: "git@github.com:TravisTroiani/Create-A-
 
 Usage
 
------
-Screenshot
 
-----
+Screenshot:
+
+/Create-A-Blog/Screenshot/
+
+Link to application: https://travistroiani.github.io/Create-A-Blog/
 
 Credits
 
